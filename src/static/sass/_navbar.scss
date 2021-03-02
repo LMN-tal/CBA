@@ -57,23 +57,15 @@ ul.menu {
   padding: 0;
   margin: 0;
 }
-.button {
-  font-family: 'Gilroy Regular', sans-serif;
-}
 li.nav-item {
   display: list-item;
   list-style-type: none;
 }
 .nav-link {
-  text-decoration: none;
-  color: #ffffff;
+  text-decoration: none;  
   font-weight: 600;
-  margin: 0.5em 2.5em;
-  font-size: 14px;
+  margin: 0.5em 1.5em;  
   display: block;
-}
-.active .nav-link {
-  border-bottom: 1px solid #fff;
 }
 .navbar.scrolling-navbar.top-nav-collapse {
   padding-top: 0;

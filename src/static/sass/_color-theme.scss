@@ -149,10 +149,13 @@ h2 {
     color: #fff;
   }
 }
-textarea:focus, input:focus, input[type]:focus, .uneditable-input:focus {   
+textarea:focus,
+input:focus,
+input[type]:focus,
+.uneditable-input:focus {
   border-color: #fff;
   box-shadow: 0 0 1px #fff inset, 0 0 8px #fff;
-  outline: 0 none;  
+  outline: 0 none;
 }
 .feedback__button {
   background-color: #fff;
@@ -160,4 +163,12 @@ textarea:focus, input:focus, input[type]:focus, .uneditable-input:focus {
 }
 .footermenu__link {
   color: #fff;
+}
+.active .nav-link {
+  border-bottom: 2px solid $primary-color;
+  color: $primary-color;
+}
+.nav-link {
+  text-decoration: none;
+  color: #ffffff;
 }
