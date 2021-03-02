@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap');
+@font-face {
+  font-family: 'Gilroy';
+  src: url('../fonts/Gilroy-Regular.eot');
+  src: local('Gilroy Regular'), local('Gilroy-Regular'),
+    url('../fonts/Gilroy-Regular.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Gilroy-Regular.woff2') format('woff2'), url('../fonts/Gilroy-Regular.woff') format('woff'),
+    url('../fonts/Gilroy-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Gilroy';
+  src: url('../fonts/Gilroy-Bold.eot');
+  src: local('Gilroy Bold'), local('Gilroy-Bold'), url('../fonts/Gilroy-Bold.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Gilroy-Bold.woff2') format('woff2'), url('../fonts/Gilroy-Bold.woff') format('woff'),
+    url('../fonts/Gilroy-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Gilroy';
+  src: url('../fonts/Gilroy-Black.eot');
+  src: local('Gilroy Black'), local('Gilroy-Black'), url('../fonts/Gilroy-Black.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Gilroy-Black.woff2') format('woff2'), url('../fonts/Gilroy-Black.woff') format('woff'),
+    url('../fonts/Gilroy-Black.ttf') format('truetype');
+  font-weight: 900;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Gilroy';
+  src: url('../fonts/Gilroy-Light.eot');
+  src: local('Gilroy Light'), local('Gilroy-Light'), url('../fonts/Gilroy-Light.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Gilroy-Light.woff2') format('woff2'), url('../fonts/Gilroy-Light.woff') format('woff'),
+    url('../fonts/Gilroy-Light.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Gilroy';
+  src: url('../fonts/Gilroy-Semibold.eot');
+  src: local('Gilroy Semibold'), local('Gilroy-Semibold'),
+    url('../fonts/Gilroy-Semibold.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Gilroy-Semibold.woff2') format('woff2'), url('../fonts/Gilroy-Semibold.woff') format('woff'),
+    url('../fonts/Gilroy-Semibold.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Gilroy';
+  src: url('../fonts/Gilroy-Medium.eot');
+  src: local('Gilroy Medium'), local('Gilroy-Medium'),
+    url('../fonts/Gilroy-Medium.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Gilroy-Medium.woff2') format('woff2'), url('../fonts/Gilroy-Medium.woff') format('woff'),
+    url('../fonts/Gilroy-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+}
+html {
+  font-family: 'Gilroy', sans-serif;
+  font-size: 18px;
+}
+.banner h1 {
+  font-family: 'Playfair Display', serif;
+  font-weight: normal;
+  font-size: 40px;
+}
+.button {
+  font-family: Gilroy;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: -0.015em;
+  text-decoration: none;
+}
+.section__name {
+  font-family: 'Gilroy', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  letter-spacing: 9.7px;
+  text-transform: uppercase;
+}
+.section__header {
+  font-family: 'Playfair Display', Georgia, 'Times New Roman', Times, serif;
+  font-weight: normal;
+  font-size: 40px;
+}
+.section__name--center {
+  text-align: center;
+}
+.section__header--center {
+  text-align: center;
+}
+.section__text--center {
+  text-align: center;
+}
+.brand__name {
+  font-family: 'Gilroy', sans-serif;
+  font-weight: 900;
+}
+.section__header--contact-us {
+  font-weight: bold;
+  font-size: 30px;
+}
+.about__image-label {
+  .years {
+    font-family: 'Playfair Display', Georgia, 'Times New Roman', Times, serif;
+    font-size: 70px;
+    line-height: 1.4em;
+    letter-spacing: 0.2px;
+  }
+  .text {
+    font-family: Gilroy;
+    font-size: 30px;
+  }
+}
+.stage__number {
+  font-family: 'Playfair Display', Georgia, 'Times New Roman', Times, serif;
+  font-size: 40px;
+}
+.project__name {
+  font-size: 24px;
+  font-weight: 600;
+}
+.project__feature-name {
+  font-weight: bold;
+}
+.review__text {
+  font-weight: 300;
+}
+.review__author {
+  font-weight: 500;
+}
+.brand__slogan {
+  font-weight: 300;
+}
+.copiright {
+  font-size: 14px;
+}
+.footermenu__link {
+  text-decoration: none;
+}

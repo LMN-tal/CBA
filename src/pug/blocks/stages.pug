@@ -1,0 +1,18 @@
+
+- 
+  let stages = [
+    {number: "1",text:"Виїзд майстра на обєкт для замірів"},
+    {number: "2",text:"Складання кошторису згідно попередніх домовлень"},
+    {number: "3",text:"Підписання договору"},
+    {number: "4",text:"Закупівля матеріалу"},
+    {number: "5",text:"Вчасна здача проекту"},
+    {number: "6",text:"Щасливі замовники"}
+  ]
+.container.stages
+  h2.section__name Етапи роботи
+  h3.section__header Як ми працюємо  
+  .stages__container  
+    each stage in stages
+      .stage
+        .stage__number #{stage.number}
+        .stage__text #{stage.text}

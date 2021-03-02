@@ -1,0 +1,17 @@
+- 
+  let social = [
+    {name: "LinkedIn",link:"#",icon: "img/s-icon-linkedin.svg"},
+    {name: "Facebook",link:"#",icon: "img/s-icon-facebook.svg"},
+    {name: "Instagram",link:"#",icon: "img/s-icon-instagram.svg"}
+  ]
+.contact-bar
+  .container
+    .contact-bar__wrapper
+      .contact-bar__phones
+        .contact-bar__phone +38 (067) 467-37-67        
+        .contact-bar__phone +38 (067) 467-37-67
+      ul.contact-bar__social-links
+        each item,i in social
+          li.social-links__item
+            a.social-links__link(href=item.link)
+              img.social-link__icon(src=item.icon, alt=item.name)

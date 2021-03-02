@@ -1,0 +1,31 @@
+- 
+  let footer_menu = [
+    {link:"#about",text: "Про нас"},
+    {link:"#portfolio",text: "Портфоліо"},
+    {link:"#stages",text: "Етапи роботи"}
+  ]
+.footer
+  .container
+    .footer__content
+      .footer__brand
+        span.brand__name LOGO
+        .brand__slogan Duis aute irure dolor in reprehenderit in
+          | voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+      ul.footer__menu
+        each item in footer_menu
+          li.footermenu__item
+            a.footermenu__link(href=item.link) #{item.text}
+      .footer__address
+        strong Україна,
+        |
+        | м.Львів,
+        br
+        | вул. Зелена 230
+        .footer__tel (097)857-70-47
+      ul.footer__social-links
+        each item,i in social
+          li.social-links__item
+            a.social-links__link(href=item.link)
+              img.social-link__icon(src=item.icon, alt=item.name)
+.copyright
+  .container 2020 &copy; Come Back Agency. All Rights Reserved.

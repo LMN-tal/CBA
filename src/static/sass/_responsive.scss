@@ -1,0 +1,36 @@
+.stages__container {
+    flex-direction: column;
+  }
+  .stage__text {
+      padding-left: 100px;
+      margin-top: -80px;
+      height: 130px;
+  }
+  @media (min-width: 600px) {
+    .navbar.scrolling-navbar {
+      padding-top: 60px;
+      padding-bottom: 12px;
+      transition: background 0.5s ease-in-out, padding 0.5s ease-in-out;
+    }
+  }
+  @media (min-width: 1024px) {
+    .collapse,
+    .collapse:not(.show) {
+      display: flex;
+      flex-basis: auto;
+    }
+    .navbar-toggler {
+      display: none;
+    }
+    .navbar-nav {
+      flex-direction: row;
+    }
+    .stages__container {
+      flex-direction: row;
+    }
+    .stage__text {
+        padding-left: 0;
+        margin-top: 20px;
+        height: auto;
+    }
+  }

@@ -1,0 +1,21 @@
+- 
+  let menu = [
+    {link:"#about",text: "Про нас"},
+    {link:"#portfolio",text: "Наші роботи"},
+    {link:"#prices",text: "Ціни"},
+    {link:"#reviews",text: "Відгуки"},
+    {link:"#contact-us",text: "Контакти"}
+  ]
+nav.navbar.fixed-top.scrolling-navbar.navbar-nav.mr-auto.smooth-scroll
+  .container
+    .navbar__brand
+      span.brand__name LOGO
+    button.navbar-toggler(type='button' data-toggle='collapse' data-target='#navbarSupportedContent' aria-controls='navbarSupportedContent' aria-expanded='false' aria-label='Toggle navigation')
+      span.navbar-toggler-icon
+    #navbarSupportedContent.collapse.navbar-collapse
+      ul#topmenu.navbar-nav
+        each item,i in menu
+          - var liClass = (i === 0 ? 'nav-item active' : 'nav-item')
+            li(class=liClass)
+              a.nav-link(href=item.link) #{item.text}
+      button.button.navbar__button Зомовити дзвінок        

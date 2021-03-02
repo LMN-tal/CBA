@@ -1,0 +1,39 @@
+doctype html
+html(lang="en")
+  head
+    meta(charset="utf-8")
+    title First practical task
+    link(rel="stylesheet" type='text/css' href="css/main.css")
+  body    
+    header#home.section--dark
+      include ../blocks/contact-bar.pug
+      include ../blocks/navbar.pug
+      include ../blocks/banner.pug
+    main
+      section#about.section.section--light
+        include ../blocks/about.pug
+      section#stages.section.section--dark
+        include ../blocks/stages.pug
+      section#portfolio.section.section--light  
+        include ../blocks/portfolio.pug
+      section#reviews.section.section--dark  
+        include ../blocks/reviews.pug
+      section#contact-us.section.section--brand  
+        include ../blocks/contact-us.pug
+    footer
+      include ../blocks/footer.pug
+    //- // SCRIPTS
+    //- // JQuery
+    script(type='text/javascript' src='js/jquery-3.4.1.min.js')
+    //- Bootstrap tooltips
+    script(type='text/javascript' src='js/popper.min.js')
+    //- Bootstrap core JavaScript
+    script(type='text/javascript' src='js/bootstrap.min.js')
+    //- MDB core JavaScript
+    script(type='text/javascript' src='js/mdb.min.js')
+    //- // Custom scripts
+    script(type='text/javascript' src='js/main.js')
+    //- // Initializations 
+    script(type='text/javascript').
+    //- Animations initialization
+    new WOW().init();

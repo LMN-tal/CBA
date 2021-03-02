@@ -1,0 +1,10 @@
+.container.container--narrow.contact-us
+  h3.section__header.section__header--contact-us Звя&apos;жіться з нами
+  p Залиште номер телефону, і ми зв'яжемося з вами на протязі 5 хвилин.
+  form.feedback(action='/submit-message',method='post')
+    .feedback__credentials
+      input(type="text", placeholder="Ім'я")
+      input(type="email", name="email", placeholder="E-mail")
+    .feedback__message  
+      textarea(name="message", cols="30", rows="1", placeholder="Ваше повідомлення")
+    button.feedback__button(type="submit" value="send") Надіслати
