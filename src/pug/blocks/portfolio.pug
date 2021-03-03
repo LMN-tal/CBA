@@ -16,4 +16,19 @@
         dt.project__feature-name Площа:
         dd.project__feature-value 81 м
           sup 2
-    .project__photos   
+    .project__gallery        
+      .swiper-container
+        .swiper-wrapper
+          .swiper-slide
+            img.project__photo(src="img/project-1.jpg", alt="photo 1")
+          .swiper-slide
+            img.project__photo(src="img/project-2.jpg", alt="photo 2")
+          .swiper-slide
+            img.project__photo(src="img/project-3.jpg", alt="photo 3")
+          .swiper-slide
+            img.project__photo(src="img/project-4.jpg", alt="photo 4")              
+        // Add Pagination
+        .swiper-pagination
+        // Add Arrows
+        .swiper-button-next
+        .swiper-button-prev

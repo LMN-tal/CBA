@@ -163,9 +163,12 @@ header,
 }
 .project__description {
   flex: 1 1 0;
+  padding-right: 3em;
 }
-.project__photos {
+.project__gallery {
   flex: 1 1 0;
+  width: 50%;
+  position: relative;
 }
 .project__feature-name,
 .project__feature-value {
@@ -178,6 +181,9 @@ header,
 .project__feature-name::before {
   content: '';
   display: block;
+}
+.project__photo {
+  width: 100%;
 }
 .review {
   text-align: center;
