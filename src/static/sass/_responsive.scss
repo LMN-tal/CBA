@@ -1,21 +1,24 @@
-@media (min-width: 600px) {
-  .navbar.scrolling-navbar {
-    padding-top: 60px;
-    padding-bottom: 12px;
-    transition: background 0.5s ease-in-out, padding 0.5s ease-in-out;
-  }
-}
 @media (min-width: 1024px) {
+  .container--narrow {
+    max-width: 780px;
+    width: 60%;
+  }
   .collapse,
   .collapse:not(.show) {
     display: flex;
     flex-basis: auto;
+  }
+  .navbar-collapse {
+    background-color: transparent;
   }
   .navbar-toggler {
     display: none;
   }
   .navbar-nav {
     flex-direction: row;
+  }
+  .about__picture {
+    display: block;
   }
   .stages__container {
     flex-direction: row;
@@ -25,7 +28,10 @@
     margin-top: 20px;
     height: auto;
   }
-  .stage:last-child {    
+  .stage:last-child {
     border-top: none;
+  }
+  .project {
+    flex-direction: row;
   }
 }

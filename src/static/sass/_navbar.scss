@@ -52,6 +52,7 @@
   flex-basis: 100%;
   flex-grow: 1;
   align-items: center;
+  background-color: rgba(0,0,0,.7);
 }
 ul.menu {
   padding: 0;
@@ -62,15 +63,26 @@ li.nav-item {
   list-style-type: none;
 }
 .nav-link {
-  text-decoration: none;  
+  text-decoration: none;
   font-weight: 600;
-  margin: 0.5em 1.5em;  
+  margin: 0.5em 1.5em;
   display: block;
+}
+.navbar__button {
+  margin: 0.5em 1.5em;
 }
 .navbar.scrolling-navbar.top-nav-collapse {
   padding-top: 0;
   padding-bottom: 0;
   background-color: #222222;
+}
+.navbar.scrolling-navbar {
+  padding-top: 60px;
+  padding-bottom: 12px;
+  transition: background 0.5s ease-in-out, padding 0.5s ease-in-out;
+}
+.navbar__button {
+  padding: 8px 10px;
 }
 .sr-only {
   position: absolute;
