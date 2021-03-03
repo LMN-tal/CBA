@@ -151,6 +151,14 @@ html {
 .review__author {
   font-weight: 500;
 }
+.feedback__credentials input,
+.feedback__credentials textarea {
+  font-size: 16px;
+}
+.feedback__button {
+  font-weight: bold;
+  font-size: 16px;
+}
 .brand__slogan {
   font-weight: 300;
 }
